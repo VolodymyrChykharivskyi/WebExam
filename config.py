@@ -1,0 +1,4 @@
+#db
+SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:cars.db'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+

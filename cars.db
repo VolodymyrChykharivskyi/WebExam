@@ -1,0 +1,9 @@
+CREATE TABLE cars (
+	id INTEGER AUTOINCREMENT,
+	license_plate TEXT UNIQUE NOT NULL,
+	car_brand TEXT NOT NULL,
+	technical_condition TEXT NOT NULL,
+    under_way TEXT NOT NULL,
+    price TEXT NOT NULL,
+    date_of_manufacture TEXT NOT NULL
+)
